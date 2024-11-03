@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #548687;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+} 
+.container {
+    margin-top: 20px;
+} 
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #b0413e;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#status {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #191913;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #333333;
+}  
+select, label {
+    font-size: 1rem;
+    color: black;
+    margin-top: 20px;
+}
+  
